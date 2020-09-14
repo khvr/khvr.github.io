@@ -1,0 +1,111 @@
+/* Start About Area */
+
+.about-area .about-image{
+    margin-left: 25%;
+}
+
+.about-area .about-image-cert{
+    margin-left: 29%;
+}
+.about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px 'Roboto', sans-serif;
+    letter-spacing: 21px;
+}
+
+.about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */
+
+
+/* Services Area  */
+
+.services-area{
+    padding: 7rem 2rem;
+}
+
+.services-area .services-title{
+    padding: 0 14rem;
+}
+
+.services-area .services-title h1{
+    font-size: 35px;
+}
+
+.services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    /* margin: 5rem .5rem; */
+    transition: box-shadow .7s ease;
+}
+
+
+
+
+.services-area .services:hover{
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+/* End Services Area */
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+    outline: 0px !important;
+    box-shadow: none !important;
+    color: #4458dc;
+    
+}
+
+
+.button-group button:hover {
+    transition: .7s ease;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    color: blue;
+}
+
+
+
+
+/* Project Area */
+.project-area{
+    padding: 4rem 0;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal  16px/30px 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.project-area .button-group{
+    padding-bottom: 3rem ;
+}
+
+.project-area .button-group button + button{
+    padding : 0 3rem 0 3rem;
+}
+
+/* End Project Area */
+
+p.para{
+    color: #777777;
+    font: normal 500 16px/25px 'Roboto', sans-serif;
+}
+
+
+.about-area .container .client{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* width: 10rem;
+    height: 10rem; 
+    align-items: center; */
+}

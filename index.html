@@ -20,8 +20,19 @@
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
+    <!--  Owl-carousel css file  -->
+    <link
+      rel="stylesheet"
+      href="vendor/owl-carousel/css/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl-carousel/css/owl.theme.default.min.css"
+    />
   <!-- Custom styles for this template -->
   <link href="css/agency.min.css" rel="stylesheet">
+  <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css" />
 
 </head>
 
@@ -72,8 +83,65 @@
     </div>
   </header>
 
+      <!--======================================= About Area =========================================== -->
+      <section class="about-area">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="about-image">
+                <img
+                  src="img/about-us.png"
+                  alt="About me"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="about-image-cert">
+                <a href="https://www.youracclaim.com/badges/a364d31d-b062-455b-8ad4-ff05b10e49f8/public_url" target="_blank">
+
+                <img
+                  src="img/logo-aws.png"
+                  alt="Aws"
+                  class="img-fluid"
+                />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 about-title">
+              <h2 class="text-uppercase pt-5">
+                <span>Let me</span>
+                <span>Introduce</span>
+                <span>Myself</span>
+              </h2>
+              <div class="paragraph py-4 w-75">
+                <p class="para">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem quaerat voluptatem ea pariatur enim magnam, quo
+                  laborum voluptatibus iure earum?
+                </p>
+                <p class="para">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it look like readable English.
+                </p>
+              </div>
+              <button
+                type="button"
+                class="btn button primary-button text-uppercase"
+              >
+                Download CV
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--======================================= End About Area =========================================== -->
+
+
   <!-- Services -->
-  <section class="page-section" id="skills">
+  <section class="page-section services-area" id="skills">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -82,37 +150,80 @@
             <!-- <br>Looking for Full-time Job roles such Software Developer, IoT Software Engineer starting Jan 2020. </b></h3> -->
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Software Engineering</h4>
-          <p>Java, JavaScript, Python, C++, Agile SCRUM, JIRA, Git, Maven, Jenkins, Confluence</p>
+    
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="services">
+              <div class="services-img text-center py-4">
+                <img src="./img/services/s1.png" alt="Services-1" />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">
+                  Web developer
+                </h5>
+                <p class="card-text text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sint minus nobis a repellendus modi dolorum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="services">
+              <div class="services-img text-center py-4">
+                <img src="./img/services/s2.png" alt="Services-2" />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">
+                  UX/UI Design
+                </h5>
+                <p class="card-text text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sint minus nobis a repellendus modi dolorum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="services">
+              <div class="services-img text-center py-4">
+                <img src="./img/services/s3.png" alt="Services-3" />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">
+                  Web Design
+                </h5>
+                <p class="card-text text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sint minus nobis a repellendus modi dolorum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="services">
+              <div class="services-img text-center py-4">
+                <img src="./img/services/s4.png" alt="Services-4" />
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">
+                  Cloud Computing
+                </h5>
+                <p class="card-text text-secondary">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Sint minus nobis a repellendus modi dolorum.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-cloud fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">IoT & Cloud Computing</h4>
-          <p>MQTT, CoAP, EC2, IAM, S3, SNS, SES, Dynamo DB, Travis CI, CodeDeploy ELB, Lambda, CloudWatch, AWS, HTTP, DNS, Ubidots, TCP/IP, UDP</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-globe fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Web Technologies</h4>
-          <p>HTML, CSS, BootStrap, AJAX, ReactJS, jQuery, JSON, RESTful, Spring MVC, Spring Boot, Node.js, MEAN, Angular, OAuth 2.0, JWT, WebSockets, MySQL, MongoDB, Postgres</p>
-        </div>
-      </div>
+      
     </div>
   </section>
 
+
   <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
+  <section class="bg-light page-section project-area" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -120,8 +231,17 @@
           <h3 class="section-subheading text-muted">Graduate Projects done while at Northeastern University</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-6 portfolio-item">
+
+      <div class="button-group">
+        <button type="button" class="active" id="btn1" data-filter="*">All</button>
+        <button type="button" data-filter=".popular">Popular</button>
+        <button type="button" data-filter=".latest">Latest</button>
+        <button type="button" data-filter=".following">Following</button>
+        <button type="button" data-filter=".upcoming">Upcoming</button>
+      </div>
+
+      <div class="row grid">
+        <div class="col-md-4 col-sm-6 portfolio-item element-item popular">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -135,7 +255,7 @@
             <p class="text-muted">Internet of Things</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item element-item upcoming">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -149,7 +269,7 @@
             <p class="text-muted">AWS</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item element-item following">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -163,7 +283,7 @@
             <p class="text-muted">Node.js</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item element-item following">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -177,7 +297,7 @@
             <p class="text-muted">Java</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item element-item latest">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -191,7 +311,7 @@
             <p class="text-muted">JavaScript</p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <div class="col-md-4 col-sm-6 portfolio-item element-item following">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -208,6 +328,9 @@
       </div>
     </div>
   </section>
+
+
+
 
   <!-- About -->
   <section class="page-section" id="about">
@@ -309,7 +432,7 @@
   </section>
 
   <!-- Awards Section -->
-  <section class="bg-light page-section" id="awards">
+   <section class="bg-light page-section" id="awards">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -353,6 +476,60 @@
             </div>
       </div>
     </section>
+
+  <!--======================================= About Me Area =========================================== -->
+  <section class="about-area">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="about-title">
+            <h1 class="text-uppercase title-h1">Client Say about me</h1>
+            <p class="para">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellendus, deleniti recusandae. Esse incidunt rem
+              repellendus ab voluptates maxime? Nemo, numquam!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container carousel py-lg-5">
+      <div class="owl-carousel owl-theme">
+        <div class="client row">
+          <div class="col-lg-4 col-md-12 client-img">
+            <img
+              src="img/testimonials/t1.jpg"
+              alt="img1"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-lg-8 col-md-12 about-client">
+            <h4 class="text-uppercase">John Martin</h4>
+            <p class="para">
+              1Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quidem architecto consequuntur ratione, obcaecati corrupti
+              deserunt.
+            </p>
+          </div>
+        </div>
+        <div class="client row">
+          <div class="col-lg-4 col-md-12 client-img">
+              <img src="img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+          </div>
+          <div class="col-lg-8 col-md-12 about-client">
+              <h4 class="text-uppercase">Mac Hill</h4>
+              <p class="para">2Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                  consequuntur ratione, obcaecati corrupti deserunt.</p>
+          </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--======================================= End About Me Area ======================================= -->
+
 
   <!-- Team -->
   <section class="page-section">
@@ -724,6 +901,15 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
+
+  <!--  isotope js library  -->
+  <script src="vendor/isotope/isotope.min.js"></script>
+
+  <!--  Owl-carousel js file  -->
+  <script src="vendor/owl-carousel/js/owl.carousel.min.js"></script>
+
+  <!--  custom js file  -->
+  <script src="./js/main.js"></script>
 
 </body>
 
