@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-
+  <meta property="og:image" content="./img/header-bg.jpg" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>Harsha Kalyanaraman</title>
-  <meta property="og:image" content="./img/about-us.png" /> 
+  <meta property="og:image" content="./img/about-us.png" />
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -254,18 +254,18 @@
       </div>
 
       <div class="row grid">
-        <div class="col-md-4 col-sm-6 portfolio-item element-item IoT">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+        <div class="col-md-4 col-sm-6 portfolio-item element-item Cloud">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="img/portfolio/07-thumbnail.jpg" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Fire in the Hole!</h4>
-            <p class="text-muted">Internet of Things</p>
+            <h4>Weatherman</h4>
+            <p class="text-muted">Kubernetes Microservice Architechture</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6 portfolio-item element-item Cloud">
@@ -282,6 +282,21 @@
             <p class="text-muted">AWS</p>
           </div>
         </div>
+        <div class="col-md-4 col-sm-6 portfolio-item element-item IoT">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Fire in the Hole!</h4>
+            <p class="text-muted">Internet of Things</p>
+          </div>
+        </div>
+
         <div class="col-md-4 col-sm-6 portfolio-item element-item Web">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
@@ -425,7 +440,8 @@
               <div class="timeline-image">
                 <h4>Excited
                   <br>for
-                  <br>new roles!</h4>
+                  <br>new roles!
+                </h4>
               </div>
             </li>
           </ul>
@@ -533,16 +549,16 @@
               <h8>Colin managed Harsha directly</h6>
                 <br>
                 <p class="para pcenter">I had the opportunity to have Harsha Kalyanaraman intern on my team for 7
-                  months, in collaboration with Northeastern University’s Co-op program. We worked together on a .NET
-                  web application for the 2020 Census; Front End (HTML5, CSS3, JS, and JQuery), Back End (VB.NET) and
-                  SQL Database.
-                  Here at SOC we have a fairly strict set of standards both in coding and design, which tends to make a
-                  bit of a learning curve for our interns, and a small office with a group that works closely together
-                  each day. However, Harsha showed strong interpersonal skills and being able to learn on the fly. He
-                  also has a keen eye for detail as well as an eagerness to learn.
-                  Over the 7 months interning, Harsha was always willing to put in an extra effort and showed great
-                  improvement in his coding skills. I am confident in Harsha, he has a promising future in the tech
-                  industry ahead and comes highly recommended.</p>
+                  months, in collaboration with Northeastern University’s Co-op program. We worked together on a web
+                  application for the 2020 Census; Front End, Back End and
+                  SQL Database. Here at SOC we have a fairly strict set of standards both in coding and design, which
+                  tends to make a bit of a learning curve for our interns,
+                  and a small office with a group that works closely together each day. However, Harsha showed strong
+                  interpersonal skills and being able to learn on the fly. He
+                  also has a keen eye for detail as well as an eagerness to learn.Over the 7 months interning, Harsha
+                  was always willing to put in an extra effort and showed
+                  great improvement in his coding skills. I am confident in Harsha, he has a promising future in the
+                  tech industry ahead and comes highly recommended.</p>
           </div>
         </div>
 
@@ -979,6 +995,63 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal 7 -->
+  <!-- weatherman -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Weatherman</h2>
+                <p class="item-intro text-muted">Kubernetes Microservice Architechture</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/07-full.jpg" alt="">
+                <ul>
+                  <li class="li-left">Managed Configuration using Ansible to setup and destroy A) Jenkins Server with
+                    elastic ip B) Kubernetes Cluster using kops and automated
+                    the installation of metrics server, cluster autoscaler, Nginx ingress controller and Letsencrypt
+                    cluster certificate issuer C) three RDS instances
+                    running on separate VPC peered to Cluster VPC</li>
+                  <li class="li-left">Deployed the pre requisites for the applications using helm charts such as Kafka,
+                    Zookeeper, Metrics Stack ­ Prometheus, Grafana and
+                    Logging Stack ­ EFK (ElasticSearch, Fluentd, Kibana)</li>
+                  <li class="li-left">Developed Helm charts to deploy 3 Micro services developed using Nodejs and
+                    containerized image is stored on a private Docker hub
+                    repository, installing deployments, services, Horizontal pod Autoscaler’s and Ingress resource, to
+                    establish path based routing</li>
+                  <li class="li-left">Decoupled the front end micro­service from other services by implementing Kafka
+                    streaming between then and used Jenkins to implement a
+                    CICD pipeline to build, push docker images to Docker Hub and perform rolling update style
+                    deployments on the Kubernetes cluster</li>
+                </ul>
+                <ul class="list-inline">
+                  <li>Date of Completion: Dec 2020</li>
+                  <li><a href="https://github.com/khvr/advcc_kops" target="_blank" id="red"><i
+                        class="fab fa-github fa-2x"></i>AWS Deployment using KOPS</a></li>
+                  <li><a href="https://github.com/khvr/advcc_gcloud_gke" target="_blank" id="red"><i
+                        class="fab fa-github fa-2x"></i>Gcloud deployment using google kubernetes engine</a></li>
+                  <li><a href="https://github.com/khvr/advcc_azure_aks" target="_blank" id="red"><i
+                        class="fab fa-github fa-2x"></i>Azure deployment using Azure kubernetes service</a></li>
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
